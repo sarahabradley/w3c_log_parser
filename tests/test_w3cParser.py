@@ -4,7 +4,6 @@ import numpy as np
 
 class Test_w3cParser(unittest.TestCase):
     
-    
     @classmethod
     def setUpClass(cls):
         cls.RAW_TEXT = [
