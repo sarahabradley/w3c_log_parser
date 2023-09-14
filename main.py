@@ -10,7 +10,7 @@ def main():
           + "\nRanked list of URI stems in descending order of hits"
           + "\n---------------------------------------------------------------\n")
     for uri in sortedHitCounts:
-        print(f"{uri[0]}: {uri[1]}")
+        print(f"{uri[0]}: {uri[1]}\n")
 
 if __name__=="__main__":
     main()
